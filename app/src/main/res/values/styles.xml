@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="fontFamily">@font/open_sans_regular</item>
+    </style>
+
+    <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="fontFamily">@font/dancing_script</item>
+    </style>
+
+    <style name="PopUpTheme" parent="@style/ThemeOverlay.AppCompat.Light">
+        <item name="fontFamily">@font/open_sans_regular</item>
+    </style>
+
+</resources>
