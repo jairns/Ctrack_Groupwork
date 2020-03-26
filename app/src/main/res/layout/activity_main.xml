@@ -17,7 +17,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
         android:gravity="center_horizontal"
-        android:text="0"
+        android:text="@string/currentCalStart"
         android:textAlignment="center"
         android:textColor="@color/colorPrimary"
         android:textSize="30sp"
@@ -46,7 +46,7 @@
         android:layout_alignParentLeft="true"
         android:layout_marginTop="30dp"
         android:gravity="center_horizontal"
-        android:text="0"
+        android:text="@string/dailyCalStart"
         android:textAlignment="center"
         android:textColor="@color/colorPrimary"
         android:textSize="30sp"
@@ -63,13 +63,14 @@
         android:layout_marginBottom="30dp"
         android:background="@drawable/custom_button"
         android:letterSpacing="0.1"
-        android:text="+ Add Calories"
+        android:text="@string/addCalBtn"
         android:textAllCaps="true"
         android:textColor="@color/white"
         android:textSize="15sp"
         app:layout_constraintBottom_toTopOf="@+id/resetCal"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:targetApi="lollipop" />
 
     <Button
         android:id="@+id/resetCal"
@@ -80,13 +81,14 @@
         android:layout_marginBottom="30dp"
         android:background="@drawable/custom_button"
         android:letterSpacing="0.1"
-        android:text="Reset Calories"
+        android:text="@string/resetCalBtn"
         android:textAllCaps="true"
         android:textColor="@color/white"
         android:textSize="15sp"
         app:layout_constraintBottom_toTopOf="@+id/setCal"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:targetApi="lollipop" />
 
     <Button
         android:id="@+id/setCal"
@@ -97,13 +99,14 @@
         android:layout_marginBottom="50dp"
         android:background="@drawable/custom_button"
         android:letterSpacing="0.1"
-        android:text="Set Calories"
+        android:text="@string/setCalBtn"
         android:textAllCaps="true"
         android:textColor="@color/white"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:targetApi="lollipop" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

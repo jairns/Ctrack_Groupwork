@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">C track</string>
+    <string name="currentCalStart">0</string>
+    <string name="dailyCalStart">0</string>
+    <string name="addCalBtn">+ Add Calories</string>
+    <string name="resetCalBtn">Reset Calories</string>
+    <string name="setCalBtn">Set Calories</string>
 </resources>
